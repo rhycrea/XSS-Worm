@@ -1,5 +1,5 @@
 # XSS-Worm
-XSS Worm experiment, which steals cookies and some information of victim's, also spreads others. Written in js, php and java.
+XSS Worm experiment for educational purposes, which steals cookies and some information of victim's, also spreads others. Written in js, php and java.
 
 ## Stealing
 The worm will send cookies and some other client information (like browser and os) to the attacker (attacker is localhost in the script).
